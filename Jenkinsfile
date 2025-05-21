@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/BangEjak04/laravel-docker-1.git'
+                git branch: 'main', url: 'https://github.com/BangEjak04/jenkins-tes.git'
             }
         }
 
